@@ -13,6 +13,11 @@ from PyQt5 import QtGui as qtg
 from PyQt5 import QtCore as qtc
 
 
+class IPv4Validator(qtg.QValidator):
+    """Enforce entry of IPv4 Addresses"""
+
+
+## The Main Window
 class MainWindow(qtw.QWidget):
     def __init__(self):
         """MainWindow Constructor"""
@@ -146,6 +151,8 @@ class MainWindow(qtw.QWidget):
         layout.addWidget(groupbox)
         
         ## Validating Widgets
+
+
 
 
 
