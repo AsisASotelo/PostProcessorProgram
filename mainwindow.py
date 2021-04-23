@@ -158,6 +158,7 @@ class Ui_MainWindow(object):
         self.tab1.setObjectName("tab1")
 
         self.machine224 = QtWidgets.QPushButton(self.tab1)
+        self.machine224.setStyleSheet("background-color:blue")
         self.machine224.setGeometry(QtCore.QRect(40, 10, 71, 41))
         self.machine224.setObjectName("machine224")
         self.machine224.clicked.connect(self.setMachineNum)
